@@ -9,8 +9,8 @@
   align-items: center;
   box-sizing: border-box;
   overflow: auto;
+}
 
-  .greeting {
-     font-size: 130px;
-  }
+.login-wrapper .greeting {
+  font-size: 130px;
 }

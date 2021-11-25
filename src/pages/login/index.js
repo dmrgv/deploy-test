@@ -1,5 +1,5 @@
 import { loginTemplate } from "./login-template"
-import "./login.scss"
+import "./login.css"
 import { prepareTemplate } from "../../modules/prepare-template"
 
 const data = {
