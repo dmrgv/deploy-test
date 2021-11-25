@@ -2,10 +2,10 @@
   "name": "deploy-test",
   "version": "1.0.0",
   "description": "Deploying Simple Web App",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel -p 3000 static/*.html",
-    "build": "parcel build static/*.html --no-cache --no-source-maps --no-minify",
+    "dev": "parcel -p 3000 static/index.html",
+    "build": "parcel build static/index.html --no-cache --no-source-maps --no-minify",
     "start": "npm run build && node ./app.js"
   },
   "author": "Dmitry Rogov <dmrgv@yandex.ru>",
