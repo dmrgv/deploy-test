@@ -2,11 +2,16 @@
   "name": "deploy-test",
   "version": "1.0.0",
   "description": "Deploying Simple Web App",
+  "browserslist": "> 0.5%, last 2 versions",
   "main": "index.js",
   "scripts": {
     "dev": "parcel -p 3000 static/index.html",
     "build": "parcel build static/index.html --no-cache --no-source-maps --no-minify",
     "start": "npm run build && node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dmrgv/deploy-test.git"
   },
   "author": "Dmitry Rogov <dmrgv@yandex.ru>",
   "license": "ISC",
