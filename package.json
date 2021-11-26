@@ -5,20 +5,10 @@
   "browserslist": "> 0.5%, last 2 versions",
   "scripts": {
     "start": "parcel static/login.html -p 3000 --no-source-maps",
-    "build": "parcel build static/*.html --no-cache",
-    "start-server": "node server.js"
-  },
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EgorEres/multi_chat.git"
+    "build": "parcel build static/*.html --no-cache"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EgorEres/multi_chat/issues"
-  },
-  "homepage": "https://github.com/EgorEres/multi_chat#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
