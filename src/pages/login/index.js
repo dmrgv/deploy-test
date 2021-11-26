@@ -1,9 +1,21 @@
-import { loginTemplate } from "./login-template"
 import "./login.css"
-import { prepareTemplate } from "../../modules/prepare-template"
+import { loginTemplate } from "./loginTemplate"
+import Handlebars from 'handlebars'
 
 const data = {
-    message: "Hello, world!"
+  inputs: [{
+    name: "Логин",
+    type: "text",
+    inputName: "login",
+  }, {
+    name: "Пароль",
+    type: "password",
+    inputName: "password",
+  }]
 }
 
-prepareTemplate(loginTemplate, data)
+document.addEventListener('DOMContentLoaded', () => {
+  const pageLogin = Handlebars.compile(loginTemplate)(data);
+
+  document.body.innerHTML = pageLogin;
+})
