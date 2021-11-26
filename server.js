@@ -8,7 +8,7 @@ app.get('/login', (req, res) => {
     res.sendFile('index.html', { root: './dist' })
 })
 
-app.get('/registration', (req, res) => {
+/* app.get('/registration', (req, res) => {
     res.sendFile('registration.html', { root: './dist' })
 })
 
@@ -26,7 +26,7 @@ app.get('/500', (req, res) => {
 
 app.get('/*', (req, res) => {
     res.sendFile('404.html', { root: './dist' })
-})
+}) */
 
 app.listen(3000, function () {
     console.log(`Go to http://localhost:3000/ ...`);

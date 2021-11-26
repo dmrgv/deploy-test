@@ -8,8 +8,8 @@ export const loginTemplate = `<div class='_login__login-wrapper'>
       {{/each}}
     </div>
     <div class='_login__buttons-block'>
-      <button id='login-sign-in'><a href="./chats.html">Войти</a></button>
-      <button id='login-sign-up'><a href="./registration.html">Зарегистрироваться</a></button>
+      <button id='login-sign-in'>Войти</button>
+      <button id='login-sign-up'>Зарегистрироваться</button>
     </div>
   </div>
 </div>`
