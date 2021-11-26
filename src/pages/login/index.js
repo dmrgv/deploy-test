@@ -1,4 +1,3 @@
-import "./login.css"
 import { loginTemplate } from "./loginTemplate"
 import Handlebars from 'handlebars'
 
